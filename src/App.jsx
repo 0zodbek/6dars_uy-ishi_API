@@ -33,10 +33,10 @@ function App() {
         
         <div >
     
-          <form className='container' action="" >
+          <form className='container' onc >
             <input ref={minRef} type="number"  placeholder="Enter the initial value" />
             <input ref={maxRef} type="number"  placeholder="Enter the last value" />
-            <button >save</button>
+            <button onClick={(event)=>{event.preventDefault()}} >save</button>
           </form>
           <br />
         <div className="wrapper container">
