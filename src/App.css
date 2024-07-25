@@ -46,7 +46,7 @@
   
   form{
       width: 100%;
-      background-color: green;
+      /* background-color: green; */
   display: flex;
   justify-content: center;
   align-items: center;
