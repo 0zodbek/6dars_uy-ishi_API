@@ -35,7 +35,7 @@ function App() {
     
           <form className='container' action="" >
             <input ref={minRef} type="number"  placeholder="Enter the initial value" />
-            <input ref={maxRef} type="number"  placeholder="Enter the initial value" />
+            <input ref={maxRef} type="number"  placeholder="Enter the last value" />
             <button >save</button>
           </form>
           <br />
